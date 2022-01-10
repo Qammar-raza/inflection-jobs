@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb/base"
+  ],
+  "rules": {
+    "comma-dangle": [
+      "error",
+      "never"
+    ],
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0
+  }
+}
